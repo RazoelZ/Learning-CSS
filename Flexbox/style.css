@@ -1,0 +1,25 @@
+.container {
+  width : 600px;
+  border : 5px solid #333;
+  margin : 30px auto;
+  padding : 5px;
+  box-sizing : border-box;
+  display : flex;
+  /* untuk container */
+  /* flex-direction : row || row-reverse || column || column-reverse */
+  /* flex-wrap : nowrap || wrap || wrap-reverse */
+  /* justify-content : flex-start || flex-end || center || space-between || space-around || space-evenly */
+  /* align-items : flex-start || flex-end || center || stretch || baseline */
+  /* align-content : flex-start || flex-end || center || stretch ||  space-between || space-around || */
+  
+}
+
+.container div{
+  width : 100px;
+  height : 100px;
+  background-color : rgb(105, 243, 211);
+  margin : 2px;
+}
+/* untuk item */
+/* align-self : flex-start || flex-end || center || stretch ||  space-between || space-around || */
+/* order : 1; sesuai dengan nomer tapi harus diorder semua biar urut karena klo ngga diorder dia jadi paling di depan */
